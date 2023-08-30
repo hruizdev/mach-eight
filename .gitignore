@@ -1,0 +1,31 @@
+.DS_Store
+node_modules
+/dist
+/data/*
+/sessions/*
+/src/config/rsa-keys.json
+
+# local env files
+.env.local
+.env.backup
+.env.*.local
+.env
+.env.local_*
+.env.production
+.env.production_cr
+.env.production_dev_cr
+.env.development
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

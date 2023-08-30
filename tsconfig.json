@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esNext",
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "lib": ["esNext"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "noImplicitThis": false,
+    "typeRoots": [
+      "./src/types",
+      "./node_modules/@types"
+    ]
+  }
+}

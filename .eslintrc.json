@@ -1,0 +1,52 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "@typescript-eslint/no-var-requires": 0,
+    "space-before-function-paren": [
+      "error",
+      "always"
+    ],
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "brace-style": [
+      "error",
+      "allman",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "indent": [
+      "error",
+      4
+    ],
+    "semi": [
+      "error",
+      "always"
+    ],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "avoidEscape": true
+      }
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 160,
+        "ignoreComments": true
+      }
+    ]
+  }
+}
